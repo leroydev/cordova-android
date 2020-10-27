@@ -36,6 +36,9 @@ class GradlePropertiesParser {
             // to allow dex in process
             'org.gradle.jvmargs': '-Xmx2048m',
 
+            // allow NDK to be used - required by Gradle 1.5 plugin	
+            'android.useDeprecatedNdk': 'true',
+
             // Android X
             'android.useAndroidX': 'false',
             'android.enableJetifier': 'false'
